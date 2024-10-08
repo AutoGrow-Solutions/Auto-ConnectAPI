@@ -1,18 +1,32 @@
-# Auto-Connect API
-An API that makes use of things speak allowing for remote access to the tents data, this enables for control and monitoring outside of the local network/server spinned up byt the arduino.
+# Auto-Connect Installing ESP-12f Board Package in Arduino IDE
 
-## Connections on the Wifi Chip
+## Step 1: Open the Arduino IDE
+- Launch the Arduino IDE.
 
-![image](https://github.com/user-attachments/assets/15502dd0-fdbe-4274-b498-08f257f0008d)
+## Step 2: Add ESP8266 Board URL
+1. Go to `File > Preferences`.
+2. In the "Additional Boards Manager URLs" field, paste the following URL:
 
-## Connecting to Arduino
+    ```bash
+    http://arduino.esp8266.com/stable/package_esp8266com_index.json
+    ```
 
-![image](https://github.com/user-attachments/assets/db974a38-8b53-4337-a490-b7ed60d227b5)
+3. If you already have other URLs listed, separate them with a comma.
 
-## Arduino UNO illustration
+## Step 3: Open Boards Manager
+1. Go to `Tools > Board > Boards Manager`.
 
-However it applies to any arduino board, the connections remain relatively the same.
+## Step 4: Install the ESP8266 Platform
+1. In the Boards Manager window, search for `ESP8266`.
+2. Click on the entry labeled `esp8266 by ESP8266 Community`.
+3. Click **Install**. This will install the latest version of the ESP8266 platform.
 
-![image](https://github.com/user-attachments/assets/39ab2ba2-5305-45b0-8010-cfad17c25073)
+## Step 5: Select Your ESP8266 Board
+1. Once the installation is complete, go to `Tools > Board` and scroll down to select your ESP8266 board model (e.g., `NodeMCU 1.0 (ESP-12E Module)`).
 
+## Step 6: Restart Arduino IDE (Optional)
+- If the boards still don't appear, try closing and reopening the Arduino IDE.
+
+## Step 7: Verifying the Installation
+1. After installing the ESP8266 board package, go to `Tools > Board` and ensure you can now select an ESP8266 board from the list.
 
