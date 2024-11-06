@@ -1,4 +1,4 @@
-![Beige Feminine Personal LinkedIn Banner-2](https://github.com/AutoGrow-Solutions/.github/assets/100778149/20250a86-1db4-4673-b638-d9670fee47e2)
+![Copy of AutoTeam Banner (2)](https://github.com/user-attachments/assets/a4526b4a-9283-4181-8871-7ca9b9b626cb)
 
 # Auto-Connect API
 ## Remote Access for Hydroponics Monitoring and Control
